@@ -5,3 +5,14 @@ applications:
   exclude_paths: []
   target_url: .jit/openapi_spec.yaml
   type: api
+deployment:
+  environments:
+  - stage
+plan_items:
+  item-api-security:
+    deployment:
+      configuration:
+      - Test
+      tags:
+      - stage
+      trigger: deployment
