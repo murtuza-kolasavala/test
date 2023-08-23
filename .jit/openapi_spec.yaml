@@ -1,0 +1,38 @@
+openapi: 3.0.0
+info:
+  title: API Documentation
+  version: 1.0.0
+paths:
+  /v2/customer/9b7389d8fd2b4da9a67fdf77e650e8cc/app/productplanapp:
+    get:
+      summary: Get Product Plan App
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              example: {}
+        '201':
+          description: Created
+          content:
+            application/json:
+              example: {}
+        '400':
+          description: Bad Request
+          content:
+            application/json:
+              example: {}
+        # ... add other response codes as needed
+    post:
+      summary: Create Product Plan App
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              example: {}
+        '400':
+          description: Bad Request
+          content:
+            application/json:
+              example: {}
