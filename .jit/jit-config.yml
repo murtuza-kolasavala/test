@@ -1,6 +1,6 @@
 applications:
 - api_domain: stagingpartner.lrinternal.com
-  application_name: Test
+  application_name: Test12
   authentication_mode: non-authenticated
   exclude_paths: []
   target_url: .jit/openapi_spec.yaml
@@ -12,7 +12,7 @@ plan_items:
   item-api-security:
     deployment:
       configuration:
-      - Test
+      - Test12
       tags:
       - stage
       trigger: deployment
