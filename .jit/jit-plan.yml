@@ -1,5 +1,6 @@
 name: My plan
 level: beginner
+update_id: 3affff54-309e-4c5c-97f1-c1db91e8762d
 author: Jit
 version: 0.1
 owners:
@@ -10,4 +11,3 @@ tags: []
 items:
   - name: Scan your API for vulnerabilities
     uses: jitsecurity-controls/jit-plans/items/runtime/item-api-security.yml@latest
-
